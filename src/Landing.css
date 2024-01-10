@@ -1,0 +1,41 @@
+.landing{
+    width: 100%;
+    background-size: cover;
+    height: 750px;
+    background-image: url(https://wallpapercave.com/wp/wp2347557.jpg);
+}
+#landing img{
+    width: 400px;
+    margin-top: 150px;
+}
+#start{
+    width: 300px;
+    margin-top: 100px;
+    border-radius: 50px;
+    height: 70px;
+    font-size: 30px;
+    box-shadow: 0 0 10px black;
+    border-style: ridge;
+}
+#start:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+@media screen and (max-width:400px) {
+    #start{
+        width: 150px;
+        font-size: 20px;
+        height: 50px;
+
+    }
+    #start:hover{
+        background-color: rgb(0, 0, 0);
+        color: black;
+    
+    }
+   
+    #landing img{
+        width: 300px;
+    }
+}
